@@ -23,5 +23,5 @@ public class User {
     private String password;
 
     @Column(nullable = false)
-    private int balance = 100; // Начальный баланс устанавливается равным 100
+    private int balance = 100;
 }
